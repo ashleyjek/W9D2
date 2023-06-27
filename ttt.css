@@ -1,0 +1,21 @@
+/* Your code here */
+
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 550px;
+    justify-content: center;
+    align-items: center; 
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px;
+}
+ul > li {
+    width: 166.67px;
+    height: 166.67px;
+}
